@@ -100,7 +100,7 @@
       compatible = "zmk,behavior-mod-morph";
       #binding-cells = <0>;
       bindings = <&kp BSPC>, <&kp RA(SPC)>;
-      mods = (MOD_RALT);
+      mods = <(MOD_RALT)>;
     };
     scsp: space_cadet_space {
       compatible = "zmk,behavior-hold-tap";
